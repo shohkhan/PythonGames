@@ -29,7 +29,7 @@ glShadeModel(GL_SMOOTH)           # most obj files expect to be smooth-shaded
 
 # LOAD OBJECT AFTER PYGAME INIT
 #obj = OBJ(sys.argv[1], swapyz=True)
-obj = OBJ('Test_W1.obj', swapyz=False)
+obj = OBJ('ChibiBase.obj', swapyz=False)
 
 clock = pygame.time.Clock()
 
